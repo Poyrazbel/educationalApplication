@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffddb"
+    tools:context=".fourthMonthActivity">
+
+    <TextView
+        android:id="@+id/Months_title"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:background="#39B4DA"
+        android:gravity="center_vertical"
+        android:text="@string/months_of_the_year"
+        android:textAlignment="viewStart"
+        android:textColor="#FAC602"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Months_title"
+        app:layout_constraintEnd_toEndOf="@+id/Months_title"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/score_num"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Score"
+        app:layout_constraintTop_toTopOf="@+id/Score" />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="277dp"
+        android:layout_height="62dp"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="277dp"
+        android:layout_height="62dp"
+        android:text="@string/check"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_let_s_play"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.029999971" />
+
+    <Button
+        android:id="@+id/januaryB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5ee4ff"
+        android:text="@string/january"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/februaryB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff5e5e"
+        android:text="@string/february"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/januaryB"
+        app:layout_constraintEnd_toStartOf="@+id/marchB"
+        app:layout_constraintStart_toEndOf="@+id/januaryB"
+        app:layout_constraintTop_toTopOf="@+id/januaryB" />
+
+    <Button
+        android:id="@+id/marchB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fa69f5"
+        android:text="@string/march"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/februaryB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/februaryB"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/aprilB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#69fa97"
+        android:text="@string/april"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/mayB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fabe69"
+        android:text="@string/may"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/aprilB"
+        app:layout_constraintEnd_toStartOf="@+id/juneB"
+        app:layout_constraintStart_toEndOf="@+id/aprilB"
+        app:layout_constraintTop_toTopOf="@+id/aprilB" />
+
+    <Button
+        android:id="@+id/juneB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8c96ff"
+        android:text="@string/june"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/mayB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mayB"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <Button
+        android:id="@+id/julyB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#be8bfc"
+        android:text="@string/july"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <Button
+        android:id="@+id/augustB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff9c8c"
+        android:text="@string/august"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/julyB"
+        app:layout_constraintEnd_toStartOf="@+id/septemberB"
+        app:layout_constraintStart_toEndOf="@+id/julyB"
+        app:layout_constraintTop_toTopOf="@+id/julyB" />
+
+    <Button
+        android:id="@+id/septemberB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f4fc03"
+        android:text="@string/september"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/augustB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/augustB"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/octoberB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffc75e"
+        android:text="@string/october"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/novemberB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34ebae"
+        android:text="@string/november"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/octoberB"
+        app:layout_constraintEnd_toStartOf="@+id/decemberB"
+        app:layout_constraintStart_toEndOf="@+id/octoberB"
+        app:layout_constraintTop_toTopOf="@+id/octoberB" />
+
+    <Button
+        android:id="@+id/decemberB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5efffa"
+        android:text="@string/december"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/novemberB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/novemberB"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="142dp"
+        android:layout_height="122dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.863"
+        app:srcCompat="@drawable/dora" />
+
+    <TextView
+        android:id="@+id/queText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/februaryB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Subtitle" />
+
+    <ImageView
+        android:id="@+id/congratulations_img"
+        android:layout_width="326dp"
+        android:layout_height="175dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.895"
+        app:srcCompat="@drawable/congratulations" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Months_title"
+        app:layout_constraintVertical_bias="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">2004projeSon</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="log_in">Login</string>
+    <string name="register">register</string>
+    <string name="intro_min">The long arrow shows us the minute and it\'s called the minute hand.</string>
+    <string name="intro_hour">The short arrow shows us the hour and it\'s called the hour hand.</string>
+    <string name="intro_sec">The thin arrow shows us the second and it\'s called the second hand.</string>
+    <string name="learn_subtitle">Let\'s Learn First</string>
+    <string name="next_button">Next</string>
+    <string name="time_title">Time</string>
+    <string name="play_subtitle">Now Play</string>
+    <string name="time">TIME</string>
+    <string name="math">MATH</string>
+    <string name="visual">VISUAL</string>
+    <string name="time3" >time3</string>
+    <string name="time4" >time4</string>
+    <string name="time5" >time5</string>
+    <string name="time6" >time6</string>
+    <string name="math7" >math7</string>
+    <string name="math8" >math8</string>
+    <string name="math11" >math11</string>
+    <string name="visual9" >visual9</string>
+    <string name="visual10" >visual10</string>
+    <string name="visual12" >visual12</string>
+    <string name="visual13" >visual13</string>
+    <string name="math_learn" >LEARN</string>
+    <string name="math_play" >PLAY</string>
+    <string name="welcome">Welcome to the Math Activity! </string>
+    <string name="tutorial7">In this activity, you will be shown a number and you need to remember those numbers and enter the correct answer in the input field below. </string>
+    <string name="start_button">START </string>
+    <string name="try_again"> TRY AGAIN </string>
+    <string name="check_button">CHECK </string>
+    <string name="enter_your_answer">ENTER YOUR ANSWER</string>
+    <string name="skip_button"> SKIP </string>
+    <string name="welcome_math_7">Welcome to the Math Activity!</string>
+    <string name="well_done">Well done!</string>
+    <string name="try_again_toast" >You should practice more. Don\'t give up! Please try again.</string>
+    <string name="correct_answer" >Correct Answer!</string>
+    <string name="incorrect_answer" >Incorrect answer.</string>
+    <string name="invalid_input" >Invalid input. Please enter a valid number.</string>
+    <string name="great_job" >You did a great job!</string>
+    <string name="congrats" >Congratulations! You did a great job!</string>
+    <string name="pls_enter_your_answer" >Please enter your answer.</string>
+    <string name="tutorial8" >In this activity, you will be shown a number and you need to remember those numbers backward manner and  enter the correct answer in the input field below. </string>
+    <string name="math_activities" >Here is the Math Activities!\n\nPick One and Start!</string>
+    <string name="tutorial11" >Welcome to Math Game!\n\nIn this game,you will learn multiplication.\n\nPress Start to begin.</string>
+    <string name="menu">MENU </string>
+    <string name="Congrats" />
+</resources>

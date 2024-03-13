@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffddb"
+    tools:context=".firstClockActivity">
+
+    <TextView
+        android:id="@+id/Topic_Title"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:background="#39B4DA"
+        android:gravity="center_vertical"
+        android:text="@string/time_title"
+        android:textColor="#FAC602"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="@string/learn_subtitle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Topic_Title"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <ImageView
+        android:id="@+id/clock_pic"
+        android:layout_width="330dp"
+        android:layout_height="334dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Topic_Title"
+        app:layout_constraintVertical_bias="0.249"
+        app:srcCompat="@drawable/clockv2" />
+
+    <TextView
+        android:id="@+id/minute_hand_introduction"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:text="@string/intro_min"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <TextView
+        android:id="@+id/hour_hand_introduction"
+        android:layout_width="341dp"
+        android:layout_height="46dp"
+        android:text="@string/intro_hour"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <TextView
+        android:id="@+id/second_hand_introduction"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_sec"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Topic_Title"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <ImageView
+        android:id="@+id/hour_hand_view"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        app:layout_constraintBottom_toBottomOf="@+id/clock_pic"
+        app:layout_constraintEnd_toEndOf="@+id/clock_pic"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="@+id/clock_pic"
+        app:layout_constraintTop_toTopOf="@+id/clock_pic"
+        app:layout_constraintVertical_bias="0.312"
+        app:srcCompat="@drawable/hour_hand" />
+
+    <ImageView
+        android:id="@+id/minute_hand_view"
+        android:layout_width="158dp"
+        android:layout_height="228dp"
+        android:rotation="63"
+        app:layout_constraintBottom_toBottomOf="@+id/clock_pic"
+        app:layout_constraintEnd_toEndOf="@+id/clock_pic"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/clock_pic"
+        app:layout_constraintTop_toTopOf="@+id/clock_pic"
+        app:layout_constraintVertical_bias="0.424"
+        app:srcCompat="@drawable/minute_hand" />
+
+    <ImageView
+        android:id="@+id/second_hand_view"
+        android:layout_width="112dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="@+id/clock_pic"
+        app:layout_constraintEnd_toEndOf="@+id/clock_pic"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="@+id/clock_pic"
+        app:layout_constraintTop_toTopOf="@+id/clock_pic"
+        app:layout_constraintVertical_bias="0.521"
+        app:srcCompat="@drawable/second_hand" />
+
+    <ImageView
+        android:id="@+id/intro_hour_view"
+        android:layout_width="65dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hour_hand_introduction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78"
+        app:srcCompat="@drawable/hour_hand" />
+
+    <ImageView
+        android:id="@+id/intro_minute_view"
+        android:layout_width="88dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="-15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/minute_hand_introduction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642"
+        app:srcCompat="@drawable/minute_hand" />
+
+    <ImageView
+        android:id="@+id/intro_second_view"
+        android:layout_width="81dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="-10dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/second_hand_introduction"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intro_hour_view"
+        app:layout_constraintVertical_bias="0.236"
+        app:srcCompat="@drawable/second_hand" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/next_button"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back_button"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:text="@string/back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Topic_Title"
+        app:layout_constraintVertical_bias="0.98" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

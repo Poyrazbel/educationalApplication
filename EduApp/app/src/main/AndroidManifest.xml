@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2004projeSon"
+        tools:targetApi="31">
+        <activity
+            android:name=".Math11"
+            android:exported="false" />
+        <activity
+            android:name=".Math8"
+            android:exported="false" />
+        <activity
+            android:name=".Math7"
+            android:exported="false" />
+        <activity
+            android:name=".similarPicturesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReadingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DirectionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Math_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Visual_menu"
+            android:exported="false" />
+        <activity
+            android:name=".SpellingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sixthSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fifthSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstSeasonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstMonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthMonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdMonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondMonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstMonthActvity"
+            android:exported="false" />
+        <activity
+            android:name=".eleventhWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tenthWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ninthWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eightWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seventhWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sixthWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fifthWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstWeekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ninthClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eightClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sixthClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seventhClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fifthClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthOneClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fourthClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thirdClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Time_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+    </application>
+
+</manifest>

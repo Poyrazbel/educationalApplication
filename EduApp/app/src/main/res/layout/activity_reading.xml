@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffddb"
+    tools:context=".ReadingActivity">
+
+    <ImageView
+        android:id="@+id/math11"
+        android:layout_width="182dp"
+        android:layout_height="171dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="194dp"
+        app:srcCompat="@drawable/hellokitty2" />
+
+    <ImageView
+        android:id="@+id/Ball"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/no_background_bee" />
+
+    <Button
+        android:id="@+id/startAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/box8"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box7"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box6"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box5"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box4"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box3"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/box1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box2"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/grass" />
+
+    <TextView
+        android:id="@+id/Debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="144dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Reading_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="156dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
